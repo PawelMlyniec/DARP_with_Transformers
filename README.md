@@ -1,6 +1,8 @@
 # Transformer network for the Dial-a-Ride problem
 The Dial-a-Ride Problem (DARP) is a complex combinatorial problem considered in the operational research field. Given a set of drivers and a stream of tasks, where each task is a ride between two points under some time constraints, one has to find a mapping that assigns a driver to the given task. This problem is highly relevant in today's economy as delivery services have gained large popularity and become widespread. It is usually solved by using hand-crafted heuristics inspired by solutions for the Travelling Salesman Problem. This repository contains the code for a transformer network capable of cloning a supervision policy on DARP instances. This provides evidence that such an architecture is capable of understanding the intricacies of DARP and thus similar architectures can likely be applied to other NP-hard problems in operational research.
 
+Full report in [DARP_with_Transformers_report.pdf](DARP_with_Transformers_report.pdf)
+
 ## Configuration
 
 Clone the repository and setup conda environment.
